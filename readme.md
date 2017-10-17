@@ -7,6 +7,53 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
+
+## Features
+
+
+Using php and vue. 
+
+mark best reply
+
+lock threads
+
+Subscriptions
+
+Spam Detection
+
+mention user
+
+email confirmation
+
+## Installation
+1.
+Clone from git
+
+2.Run composer
+```
+$ composer install
+```
+3.Copy .env file to the folder download from git and modify
+
+4.Migrate database
+```
+$ php artisan migrate
+```
+5. Generate Key
+```
+$ php artisan key:generate
+```
+6.Npm install
+```
+$ npm install
+```
+7.This app requires Redis 
+```
+composer require predis/predis
+```
+and install Redis
+8. You are good to go
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as:
@@ -38,31 +85,3 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
-
-
-
-## Features
-
-
-Using php and vue. 
-
-mark best reply
-
-lock threads
-
-Subscriptions
-
-Spam Detection
-
-mention user
-
-email confirmation
-
-## Installation
-1.
-```
-$ composer install
-```
-
-
-
