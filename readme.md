@@ -26,8 +26,7 @@ mention user
 email confirmation
 
 ## Installation
-1.
-Clone from git
+1.Clone from git
 
 2.Run composer
 ```
@@ -51,7 +50,7 @@ $ npm install
 ```
 composer require predis/predis
 ```
-and install Redis
+
 8. You are good to go
 
 ## About Laravel
