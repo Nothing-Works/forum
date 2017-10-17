@@ -58,4 +58,11 @@ mention user
 
 email confirmation
 
+## Installation
+1.
+```
+$ composer install
+```
+
+
 
